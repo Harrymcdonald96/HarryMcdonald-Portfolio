@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
 import video from '../../assets/AdobeStock_85756422.mov'; // Import the background video
@@ -33,13 +34,13 @@ const ContactPage = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    // Use the EmailJS service to send the email
+  
+    // Use the EmailJS service to send the email with environment variables
     emailjs.send(
-      'service_qaoq97f', // Service ID from EmailJS
-      'template_g2t1c8z', // New Template ID from EmailJS
+      import.meta.env.VITE_EMAILJS_SERVICE_ID, // Service ID from EmailJS
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID, // Template ID from EmailJS
       formData,
-      'PPeFYw_-I7Y65fogh' // Your public key (user ID) from EmailJS
+      import.meta.env.VITE_EMAILJS_USER_ID // User/Public Key from EmailJS
     )
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
@@ -50,7 +51,7 @@ const ContactPage = () => {
         setMessageStatus('Failed to send the message, please try again later.');
       });
   };
-
+  
   return (
     <section className="relative w-screen h-screen overflow-y-auto scroll-smooth lg:ml-[-260px]">
       {/* Background Video */}
