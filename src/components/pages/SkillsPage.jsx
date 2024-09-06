@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import video from '../../assets/AdobeStock_85756422.mov';
+import video from '../../../dist/assets/Adobestock_85756422-D01-Tfm8.mov';
 import { javascriptIcon, pythonIcon, htmlIcon, cssIcon, sqlIcon, reactIcon, nodejsIcon, expressIcon, tailwindIcon, mongodbIcon, illustratorIcon, photoShopIcon, figmaIcon, canvaIcon } from '../../assets/skillsIcons';
 import { FaCode, FaDatabase, FaLayerGroup, FaPaintBrush } from 'react-icons/fa';
 import '../../styles/skillsIcons.css';

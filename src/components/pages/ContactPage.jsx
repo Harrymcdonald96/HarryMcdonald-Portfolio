@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
-import video from '../../assets/AdobeStock_85756422.mov'; // Import the background video
+import video from '../../../dist/assets/Adobestock_85756422-D01-Tfm8.mov'; // Import the background video
 import { FaGithub, FaLinkedin, FaPhone, FaEnvelope } from 'react-icons/fa';
 import { FiDownload } from 'react-icons/fi';
 import cvFile from '../../assets/Harry-Mcdonald-CV.pdf'; // Import your CV file
