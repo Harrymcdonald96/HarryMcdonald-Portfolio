@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import Popover from '../Popover';
-import video from '../../../dist/assets/Adobestock_85756422-D01-Tfm8.mov';
+import video from '../../assets/AdobeStock_85756422.mov';
 import { HiOutlineInformationCircle } from 'react-icons/hi';
 import { FaCode, FaBullhorn, FaUsers, FaGlassCheers, FaDumbbell } from 'react-icons/fa';
 import 'animate.css';

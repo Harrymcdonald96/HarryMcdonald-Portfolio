@@ -5,7 +5,7 @@ import fitnessDatabaseScreenshot from '../../assets/DataBase.png';
 import expenseTrackerScreenshot from '../../assets/ExpenseTracker.png';
 import passwordGeneratorScreenshot from '../../assets/PasswordG.png';
 import fitnessDashboardScreenshot from '../../assets/FitnessDashboard.png';
-import video from '../../../dist/assets/Adobestock_85756422-D01-Tfm8.mov'; // Import your background video
+import video from '../../assets/AdobeStock_85756422.mov'; // Import your background video
 
 const ProjectsPage = () => {
   const projects = [

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import video from '../../../dist/assets/Adobestock_85756422-D01-Tfm8.mov';
+import video from '../../assets/AdobeStock_85756422.mov';
 import { FaArrowRight, FaDownload } from 'react-icons/fa'; // Importing icons
 import cvFile from '../../assets/Harry-Mcdonald-CV.pdf'; // Import the CV file
 
