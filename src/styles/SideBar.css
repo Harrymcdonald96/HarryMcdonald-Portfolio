@@ -1,0 +1,19 @@
+@keyframes float {
+    0% {
+      transform: translateY(0);
+      box-shadow: 0 15px 20px rgba(251, 101, 20, 0.4); /* Orange shadow */
+    }
+    50% {
+      transform: translateY(-10px);
+      box-shadow: 0 25px 30px rgba(251, 101, 20, 0.7); /* Larger shadow as it moves up */
+    }
+    100% {
+      transform: translateY(0);
+      box-shadow: 0 15px 20px rgba(251, 101, 20, 0.4); /* Return to original shadow */
+    }
+  }
+  
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+  

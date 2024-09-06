@@ -1,0 +1,44 @@
+/* Floating effect */
+.floating-effect {
+    animation: float 3s ease-in-out infinite;
+}
+
+/* General styling for all icons */
+.skills-icons {
+    fill: none; /* Transparent fill */
+    stroke: #FB6514; /* Primary orange stroke */
+    stroke-width: 1px; /* Adjust stroke width as needed */
+    transition: transform 0.3s ease-in-out, stroke 0.3s ease-in-out;
+
+}
+
+  
+/* Hover effect */
+.skills-icons:hover {
+    stroke: #FD853A; /* Secondary orange on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+
+  
+  /* Size adjustments */
+  .skills-icons-small {
+      width: 24px !important; 
+      height: 24px !important;
+  }
+  
+  .skills-icons-medium {
+    width: 32px !important; /* Adjust size as needed */
+    height: 32px !important;
+  }
+  
+  .skills-icons-large {
+    width: 100px !important;/* Adjust size as needed */
+    height: 100px !important;
+  }
+  .icon-spacing {
+    margin-right: 25px; /* Adjust the spacing as needed */
+}
+.icon-vertical-spacing {
+    margin-bottom: 50px; /* Adjust the value as needed for desired spacing */
+}
