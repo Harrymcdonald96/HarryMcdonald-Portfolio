@@ -28,8 +28,7 @@ function HeroSection() {
 
 
           {/* Get Started Button */}
-       {/* Get Started Button */}
-       <Link
+        <Link
             to="/experience" // Linking to the Experience page route
             className="inline-flex items-center px-4 py-2 text-sm font-medium text-black bg-transparent border border-primary rounded-lg backdrop-blur-md backdrop-filter hover:bg-primary hover:text-white dark:border-white dark:text-white dark:hover:bg-black dark:hover:border-black dark:hover:text-white transition-colors"
           >
