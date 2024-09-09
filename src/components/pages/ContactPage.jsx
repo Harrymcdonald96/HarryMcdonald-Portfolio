@@ -1,10 +1,8 @@
-
 import { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
-import video from '../../assets/AdobeStock_85756422.mov'; // Import the background video
 import { FaGithub, FaLinkedin, FaPhone, FaEnvelope } from 'react-icons/fa';
 import { FiDownload } from 'react-icons/fi';
-import cvFile from '../../assets/Harry-Mcdonald-CV.pdf'; // Import your CV file
+
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -57,7 +55,7 @@ const ContactPage = () => {
       {/* Background Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
-        src={video}
+        src="https://res.cloudinary.com/dmvxwzpf7/video/upload/f_auto//v1725812451/AdobeStock_85756422_es9ls0.mov"
         autoPlay
         loop
         muted
@@ -158,7 +156,7 @@ const ContactPage = () => {
             <a href="https://github.com/Harrymcdonald96" target="_blank" rel="noopener noreferrer" className="text-white dark:text-black hover:text-primary dark:hover:text-primary transition-colors">
               <FaGithub className="w-6 h-6" />
               </a>
-            <a href={cvFile} download className="text-white dark:text-black hover:text-primary dark:hover:text-primary transition-colors">
+            <a href="https://res.cloudinary.com/dmvxwzpf7/image/upload/v1725814777/Harry-Mcdonald-CV_1_xrtqtc.pdf" download className="text-white dark:text-black hover:text-primary dark:hover:text-primary transition-colors">
               <FiDownload className="w-6 h-6" />
             </a>
           </div>

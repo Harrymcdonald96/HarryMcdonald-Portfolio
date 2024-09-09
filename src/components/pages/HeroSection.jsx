@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
-import video from '../../assets/AdobeStock_85756422.mov';
 import { FaArrowRight, FaDownload } from 'react-icons/fa'; // Importing icons
-import cvFile from '../../assets/Harry-Mcdonald-CV.pdf'; // Import the CV file
+
 
 
 function HeroSection() {
@@ -10,7 +9,7 @@ function HeroSection() {
       {/* Background Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
-        src={video}
+        src="https://res.cloudinary.com/dmvxwzpf7/video/upload/f_auto//v1725812451/AdobeStock_85756422_es9ls0.mov"
         autoPlay
         loop
         muted
@@ -41,7 +40,7 @@ function HeroSection() {
 
            {/* Download CV Button */}
            <a
-            href={cvFile} // Link to the CV file
+            href="https://res.cloudinary.com/dmvxwzpf7/image/upload/v1725814777/Harry-Mcdonald-CV_1_xrtqtc.pdf"
             download="Harry-Mcdonald-CV.pdf" // Optional: specify the filename
             className="inline-flex items-center px-4 py-2 text-sm font-medium text-black bg-transparent border border-primary rounded-lg backdrop-blur-md backdrop-filter hover:bg-primary hover:text-white dark:border-white dark:text-white dark:hover:bg-black dark:hover:border-black dark:hover:text-white transition-colors"
           >

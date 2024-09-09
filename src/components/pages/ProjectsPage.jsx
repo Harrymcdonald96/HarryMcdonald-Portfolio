@@ -1,11 +1,8 @@
 import ProjectCard from '../ProjectCard'; // Assuming ProjectCard component is correctly imported
 import { FaPython, FaHtml5, FaCss3Alt, FaJs, FaDatabase, FaReact, FaNode } from 'react-icons/fa'; // Import the required icons
-import languageQuizScreenshot from '../../assets/LanguageQuiz.png';
-import fitnessDatabaseScreenshot from '../../assets/DataBase.png';
-import expenseTrackerScreenshot from '../../assets/ExpenseTracker.png';
-import passwordGeneratorScreenshot from '../../assets/PasswordG.png';
-import fitnessDashboardScreenshot from '../../assets/FitnessDashboard.png';
-import video from '../../assets/AdobeStock_85756422.mov'; // Import your background video
+
+
+
 
 const ProjectsPage = () => {
   const projects = [
@@ -15,7 +12,7 @@ const ProjectsPage = () => {
       technologies: [FaPython],
       githubLink: "https://github.com/Harrymcdonald96/LanguageQuiz",
       demoLink: "https://youtu.be/Kmgu2mH9Fxo?si=Bg8MvdKZg027I349",
-      imageUrl: languageQuizScreenshot,
+      imageUrl: "https://res.cloudinary.com/dmvxwzpf7/image/upload/v1725814452/LanguageQuiz_b6ow3r.png",
     },
     {
       title: "Fitness Database",
@@ -23,7 +20,7 @@ const ProjectsPage = () => {
       technologies: [FaDatabase, FaHtml5, FaCss3Alt, FaJs],
       githubLink: "https://github.com/Harrymcdonald96/FitnessDatabase",
       demoLink: "https://harrymcdonald96.github.io/FitnessDatabase/",
-      imageUrl: fitnessDatabaseScreenshot,
+      imageUrl: "https://res.cloudinary.com/dmvxwzpf7/image/upload/v1725814010/DataBase_z4it18.png",
     },
     {
       title: "Expense Tracker",
@@ -31,7 +28,7 @@ const ProjectsPage = () => {
       technologies: [FaPython],
       githubLink: "https://github.com/Harrymcdonald96/Expense-Tracker",
       demoLink: "https://youtu.be/GqISyq6MJ2k?si=blzddkJO0_g0LIN-",
-      imageUrl: expenseTrackerScreenshot,
+      imageUrl: "https://res.cloudinary.com/dmvxwzpf7/image/upload/f_auto/v1725814492/ExpenseTracker_il6q1r.png",
     },
     {
       title: "Apex Fitness Dashboard",
@@ -39,7 +36,7 @@ const ProjectsPage = () => {
       technologies: [FaReact, FaJs],
       githubLink: "https://github.com/Harrymcdonald96/React-Vite-Fitness-Dashboard",
       demoLink: "https://harrymcdonald96.github.io/React-Vite-Fitness-Dashboard/",
-      imageUrl: fitnessDashboardScreenshot,
+      imageUrl: "https://res.cloudinary.com/dmvxwzpf7/image/upload/v1725814061/Dashboard_qmt2j7.png",
     },
     {
       title: "Password Generator",
@@ -47,7 +44,7 @@ const ProjectsPage = () => {
       technologies: [FaJs, FaHtml5, FaCss3Alt],
       githubLink: "https://github.com/Harrymcdonald96/PasswordGenerator",
       demoLink: "https://harrymcdonald96.github.io/PasswordGenerator/",
-      imageUrl: passwordGeneratorScreenshot,
+      imageUrl: "https://res.cloudinary.com/dmvxwzpf7/image/upload/v1725814088/PasswordG_ledqw2.png",
     },
     {
       title: "React To-Do App",
@@ -64,7 +61,7 @@ const ProjectsPage = () => {
       {/* Background Video */}
       <video
         className="fixed inset-0 w-full h-full object-cover"
-        src={video}
+        src="https://res.cloudinary.com/dmvxwzpf7/video/upload/f_auto//v1725812451/AdobeStock_85756422_es9ls0.mov"
         autoPlay
         loop
         muted

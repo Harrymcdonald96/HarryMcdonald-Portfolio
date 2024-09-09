@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import Popover from '../Popover';
-import video from '../../assets/AdobeStock_85756422.mov';
+
 import { HiOutlineInformationCircle } from 'react-icons/hi';
 import { FaCode, FaBullhorn, FaUsers, FaGlassCheers, FaDumbbell } from 'react-icons/fa';
 import 'animate.css';
@@ -106,7 +106,7 @@ const Timeline = () => {
       {/* Background Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
-        src={video}
+       src="https://res.cloudinary.com/dmvxwzpf7/video/upload/f_auto//v1725812451/AdobeStock_85756422_es9ls0.mov"
         autoPlay
         loop
         muted

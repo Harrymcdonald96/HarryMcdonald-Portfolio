@@ -1,5 +1,4 @@
 import { useEffect, useRef } from 'react';
-import video from '../../assets/AdobeStock_85756422.mov';
 import { javascriptIcon, pythonIcon, htmlIcon, cssIcon, sqlIcon, reactIcon, nodejsIcon, expressIcon, tailwindIcon, mongodbIcon, illustratorIcon, photoShopIcon, figmaIcon, canvaIcon } from '../../assets/skillsIcons';
 import { FaCode, FaDatabase, FaLayerGroup, FaPaintBrush } from 'react-icons/fa';
 import '../../styles/skillsIcons.css';
@@ -79,7 +78,7 @@ const SkillsPage = () => {
       {/* Background Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
-        src={video}
+        src="https://res.cloudinary.com/dmvxwzpf7/video/upload/f_auto//v1725812451/AdobeStock_85756422_es9ls0.mov"
         autoPlay
         loop
         muted

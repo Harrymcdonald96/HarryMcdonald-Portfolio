@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-import profilePic from '../assets/profile.jpeg';
 import { FaGithub, FaLinkedin, FaHome, FaCode, FaBriefcase, FaProjectDiagram, FaEnvelope } from 'react-icons/fa';
 import { FiDownload } from 'react-icons/fi';
 import '../styles/SideBar.css';
@@ -34,7 +33,7 @@ function Sidebar({ isOpen, toggleSidebar }) {
 
       <div className="flex flex-col items-center p-4 mt-10">
         <img
-          src={profilePic}
+          src="https://res.cloudinary.com/dmvxwzpf7/image/upload/f_auto/v1725814240/IMG_1535_olawmx.jpg"
           alt="Profile"
           className="w-24 h-24 rounded-full mb-4 object-cover animate-float"
         />
@@ -48,7 +47,7 @@ function Sidebar({ isOpen, toggleSidebar }) {
           <a href="https://linkedin.com/in/harry-wrs-mcdonald" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className="w-6 h-6 text-light-icon dark:text-dark-icon hover:text-primary dark:hover:text-primary" />
           </a>
-          <a href="/path-to-your-resume.pdf" download>
+          <a href="https://res.cloudinary.com/dmvxwzpf7/image/upload/v1725814777/Harry-Mcdonald-CV_1_xrtqtc.pdf"  download>
             <FiDownload className="w-6 h-6 text-light-icon dark:text-dark-icon hover:text-primary dark:hover:text-primary" />
           </a>
         </div>
