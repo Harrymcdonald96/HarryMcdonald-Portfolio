@@ -6,10 +6,10 @@ import '../styles/SideBar.css';
 function Sidebar({ isOpen, toggleSidebar }) {
   return (
     <div
-      className={`fixed top-0 left-0 w-64 sm:w-58 h-full text-light-text dark:text-dark-text border-t border-r border-secondary transform transition-transform duration-300 z-50 backdrop-blur-md bg-opacity-50 ${
-        isOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'
-      }`}
-    >
+    className={`fixed top-0 left-0 h-full text-light-text dark:text-dark-text border-t border-r border-secondary transform transition-transform duration-300 z-50 backdrop-blur-md bg-opacity-50 ${
+      isOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'
+    } w-1/2 lg:w-64`}  // Updated width to 1/2 for mobile view
+  >
       <button
         className="absolute top-4 right-4 p-1 bg-transparent border-none text-light-text dark:text-dark-text hover:text-primary dark:hover:text-primary focus:outline-none lg:hidden"
         onClick={toggleSidebar}
