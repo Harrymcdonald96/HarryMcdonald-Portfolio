@@ -38,7 +38,9 @@ function Sidebar({ isOpen, toggleSidebar }) {
           className="w-24 h-24 rounded-full mb-4 object-cover animate-float"
         />
         {/* Updated Name Title to Primary Orange */}
-        <h2 className="text-xl font-bold mb-4 text-primary">HARRY MCDONALD</h2>
+        <h2 className="text-xl font-bold mb-4 text-primary text-center">
+         HARRY<br />MCDONALD
+          </h2>
         <div className="flex space-x-4 mb-8">
           {/* Social Icons with hover effect */}
           <a href="https://github.com/Harrymcdonald96" target="_blank" rel="noopener noreferrer">
