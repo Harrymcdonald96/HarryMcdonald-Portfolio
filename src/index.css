@@ -10,8 +10,7 @@ button:focus,
 input:focus,
 textarea:focus {
   outline: none !important;
-  border-color: transparent !important;
-  box-shadow: none !important;
+box-shadow: none !important;
 }
 
 
