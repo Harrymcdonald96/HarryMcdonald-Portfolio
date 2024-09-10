@@ -156,7 +156,7 @@ const ContactPage = () => {
             <a href="https://github.com/Harrymcdonald96" target="_blank" rel="noopener noreferrer" className="text-white dark:text-black hover:text-primary dark:hover:text-primary transition-colors">
               <FaGithub className="w-6 h-6" />
               </a>
-            <a href="https://res.cloudinary.com/dmvxwzpf7/image/upload/v1725814777/Harry-Mcdonald-CV_1_xrtqtc.pdf" download className="text-white dark:text-black hover:text-primary dark:hover:text-primary transition-colors">
+            <a href="https://res.cloudinary.com/dmvxwzpf7/image/upload/v1725814777/Harry-Mcdonald-CV_1_xrtqtc.pdf" download className="text-white dark:text-black hover:text-primary dark:hover:text-primary transition-colors ">
               <FiDownload className="w-6 h-6" />
             </a>
           </div>

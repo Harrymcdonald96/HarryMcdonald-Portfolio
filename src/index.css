@@ -7,10 +7,7 @@
 
 
 
-input:focus, textarea:focus {
-  outline: none; /* Remove default blue outline */
-  border-color: inherit; /* Keeps the border color */
-}
+
 
 /* You can add custom styles below this line */
 .backdrop-blur-md {
