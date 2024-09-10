@@ -74,7 +74,7 @@ const ProjectsPage = () => {
 
       <div className="relative z-10 pt-28 px-4 sm:px-8 lg:ml-64">
         {/* Section Title */}
-        <h2 className="text-3xl font-bold text-primary dark:text-white mb-8 text-center">Projects</h2>
+        <h2 className="text-3xl font-bold text-primary dark:text-Primary mb-8 text-center">Projects</h2>
         
         {/* Project Cards Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">

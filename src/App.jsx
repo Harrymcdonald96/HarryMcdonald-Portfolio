@@ -7,7 +7,7 @@ import DarkModeToggle from './components/DarkModeToggle';
 import ExperiencePage from './components/pages/ExperiencePage';
 import SkillsPage from './components/pages/SkillsPage';
 import ContactPage from './components/pages/ContactPage';
-import SubNav from './components/SubNav'; // Importing the SubNav component
+
 import ProjectPage from './components/pages/ProjectsPage';
 
 function App() {
@@ -52,8 +52,7 @@ function App() {
         </div>
       </div>
       
-      {/* Adding the SubNav component */}
-      <SubNav />
+    
     </Router>
   );
 }
