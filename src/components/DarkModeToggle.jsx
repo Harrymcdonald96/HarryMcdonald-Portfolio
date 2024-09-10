@@ -1,10 +1,9 @@
 import { useState, useEffect } from 'react';
-import '../styles/DarkModeToggle.css'; // Ensure you have the necessary CSS
+import '../styles/DarkModeToggle.css'; // Make sure to include the CSS file in your project
 
 function DarkModeToggle() {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
-  // Load the theme from localStorage on component mount
   useEffect(() => {
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme) {
@@ -13,7 +12,6 @@ function DarkModeToggle() {
     }
   }, []);
 
-  // Toggle dark mode and save it in localStorage
   const toggleDarkMode = () => {
     const newTheme = !isDarkMode ? 'dark' : 'light';
     setIsDarkMode(!isDarkMode);
@@ -22,25 +20,15 @@ function DarkModeToggle() {
   };
 
   return (
-    <div className="flex items-center justify-center space-x-2 mt-4">
-      {/* Label for Dark Mode */}
-      <h6 className="text-sm label-dark text-light-text dark:text-dark-text">Dark</h6>
-      
-      {/* Toggle Switch */}
+    <div className="mode-toggle noselect">
+      <h6 className="label-dark">Dark</h6>
       <div 
-        className="relative inline-flex items-center cursor-pointer w-12 h-6 bg-gray-300 rounded-full dark:bg-gray-700" 
+        className="toggle-switch" 
         onClick={toggleDarkMode}
-        title={isDarkMode ? 'Switch to light mode' : 'Switch to dark mode'}
-      >
-        <span 
-          className={`absolute left-1 top-1 w-4 h-4 bg-white border border-gray-300 rounded-full dark:border-gray-600 transform transition-transform ${
-            isDarkMode ? 'translate-x-6' : 'translate-x-0'
-          }`}
-        />
-      </div>
-      
-      {/* Label for Light Mode */}
-      <h6 className="text-sm label-light text-light-text dark:text-dark-text">Light</h6>
+        title={isDarkMode ? 'Go light' : 'Go dark'}
+        alt={isDarkMode ? 'Go light' : 'Go dark'}
+      />
+      <h6 className="label-light">Light</h6>
     </div>
   );
 }
